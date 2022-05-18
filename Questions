@@ -1,0 +1,7 @@
+How should we join the country code relation between WDIData which holds yearly measures on each country, with WDICountry, 
+which holds more general data about countries such as their region or their monetary unit.
+
+Ans: Left Join
+
+
+
