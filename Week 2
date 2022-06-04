@@ -1,0 +1,128 @@
+1. You’re given two circles of the same size. The left one is surrounded by smaller circles and the right one is surrounded by larger circles. 
+Which circle appears larger?
+Ans:
+The left one.
+
+False:
+1. The right one.
+2. Neither.
+Exp:
+The perceptual processing of the human visual system is designed not to ignore differences but to accentuate them.
+
+
+
+2. When visualizing data, you should keep your eyes focused on one point for the entire duration of the visualization.
+Ans:
+False, because your visual system will play tricks on your perception of the data.
+
+False:
+True, because your visual system will better detect any changes to datapoints during the visualization.
+Exp:
+As we showed in the slides, focusing on a single point causes a temporal inhibition in the light sensors and can play tricks on your perception.
+
+
+3. Which one of the 3-D depth cues below indicates surface orientation?
+Ans:
+Illumination
+
+False:
+1. Occlusion
+2. Stereopsis
+3. Shadowing
+
+Exp:
+Occlusion and shadowing only indicate the surface closest to the observer (or light source), 
+and stereopsis provides relative cues of distance across an image, 
+whereas the illumination of a surface changes based on how the surface is facing the light source (and for specular reflection, the viewer).
+
+
+4. In what order does a data visualization graphics pipeline process information?
+Ans:
+Vertex processing, then rasterization, then pixel processing
+
+Exp:
+The graphics pipeline accepts vector graphics primitives described as vertices, so it processes vertices first. 
+Rasterization converts vector graphics primitives into the pixel locations used to display them on a display screen. 
+Pixel processing is used to further process the pixels output from rasterization, e.g., to compute their individual colors.
+
+
+
+5. How many items can human working memory (short-term memory) typically hold?
+Ans:
+3–7 items
+
+False:
+1. 30–70 items
+2. 300–700 items
+3. 3,000-7,000 items
+
+Exp: 
+Our working memory can only hold 3–7 items at a time, 
+though a single item in our working memory can be a collection of items in our long-term memory.
+
+6. 
+Given a plot of life expectancy based on country and birth year, you look up your country and birth year, 
+find the displayed life expectancy, and conclude you will probably live that long. This is an example of 
+
+Ans:
+Deductive reasoning
+
+False:
+1. Inductive reasoning
+2. Subductive reasoning
+3. Abductive reasoning
+
+Exp:
+This is an example of deductive reasoning because we are drawing the conclusion implied by the given data.
+
+
+7. A light gray box drawn on top of a dark gray background will make the light gray box appear ______________.
+Ans:
+Brighter
+Exp:
+The dark gray box will make the light gray box appear even brighter 
+because the human visual system's lateral inhibition will detect and accentuate the difference.
+
+False:
+1. The same as it appears on a white background
+2. Darker
+
+
+8. Which one of the following is NOT an element of vector graphics?
+Ans:
+Pixels
+
+False:
+1. Strokes
+2. Vertices
+3. Fills
+Exp:
+While vector graphics are sometimes converted to a rectilinear raster graphics array of pixel color values for display on a raster device, 
+some applications work directly from the vector graphics specification, such as a plotter or a laser display.
+
+
+9. Which one of the 3-D depth cues below is the strongest?
+Ans:
+Occlusion
+
+False:
+1. Shadowing
+2. Lighting
+3. Stereopsis
+Exp:
+Occlusion is the strongest cue, because if a point on object A and object B project to the same point on the image plane, 
+the fact that you see object A and not object B at that point provides incontrovertible evidence of a depth ordering that A is closer than B.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
