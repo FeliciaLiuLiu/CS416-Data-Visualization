@@ -1,0 +1,174 @@
+1. Which of these mappings is the best choice if you want to visualize a data value 
+but you don’t know if the value corresponds to a shirt’s price, size, or color?
+Ans:
+Position
+
+False:
+1. Color
+2. Length
+3. Area
+Exp:
+Position is the most effective perceptual mapping for quantitative (price), ordered (size), or nominal (color) values.
+
+
+
+
+2. Which of these best characterizes how principal component analysis (PCA) is used for data visualization?
+Ans:
+To find low dimensional structure in a high dimensional dataset
+
+False:
+A. To find which dimensions of a high dimensional dataset the data varies the most
+B. To find the best way to run an elementary school
+C. To increase the dimensionality of a low dimension dataset to reveal hidden structure
+Exp:
+PCA uses the eigenvectors corresponding to the largest eigenvalues of the covariance matrix of a high dimensional dataset 
+to show the directions in the high dimensional space of the data where the data is varying the most.
+
+
+
+3. Which of these is the least important criterion when visually ordering the elements of a chart.
+Ans:
+Displaying field values in database record order to facilitate interactivity through more rapid access times.
+
+
+False:
+A. Displaying plotted measure values in order from smaller to larger understand their extremes.
+B. Clustering data based on similarity of one or more fields.
+C. Listing ordinal field values in order to make them easier to find in a list.
+Exp: The speed advantage for this ordering is likely negligible, and the user may infer some importance to the ordering.
+
+
+
+4. Which best characterizes the betweenness centrality of a node?
+Ans:
+The portion of all the shortest paths between any two nodes that pass through the node
+
+
+False:
+A. The total distance to all other nodes
+B. The number of nodes connected to a node by some path
+C. The inverse of the distance to the farthest node
+Exp:
+The betweenness centrality (BC) is high for a node when it is visited often along the shortest path between other nodes, 
+and can be used to simplify a graph (by removing edges between low BC nodes) or to reveal communities (by removing high BC nodes).
+
+
+circle packing:
+A visualization of the population of countries is visualized as the area of disks, which are packed in an arbitrary order
+
+
+word cloud:
+A visualization where the names of the counties are scaled by their population and packed in an arbitrary order
+
+
+
+
+5. Which of these best characterizes what multidimensional scaling (MDS) is used for?
+Ans:
+To layout nodes in a complete graph (every node connected to every other node by an edge) according to desired edge lengths
+
+
+False:
+A. To layout nodes in a planar graph so that the edges do not cross
+B. To find the shortest route among available flight connections from one airport to another
+C. To find the directions in a high dimensional dataset where the data varies the most
+Exp:
+MDS is used to layout points when you are given the desired distances between the points.
+
+
+
+6. Which of these choices is the most perceptually accurate way to map a quantitative value?
+Ans:
+The length of a bar in a bar chart
+
+
+False:
+A. The volume of a box in a 3-D bar chart
+B. The area of a bar in a bar chart
+C. The gray level of a bar in a bar chart
+Exp: Length is more perceptually accurate at mapping quantitative values than the other choices.
+
+
+
+7. In the Data Visualization Framework, what does the Mapping Layer do?
+Ans: It associates geometry with data.
+
+False:
+A. It is the geographical map layer underneath a layer containing a chart of locations.
+B. It maps user interaction into chart actions.
+C. It ensures the data is in the proper format for visualization.
+Exp:
+The mapping layer associates appropriate geometry with corresponding data channels.
+
+
+
+
+8. In which one situation below would be the most appropriate to treat the date data 
+as a category variable instead of a quantitative continuous variable.
+Ans:
+Total annual sales for the year in order of best year to worst year.
+Exp:
+Because the order is not the date order, 
+it would be inaccurate to treat measures over the dates as continuous and one would not want to interpolate between them.
+
+False:
+A. Sales on January 1st of each year in order from 2000 to 2020.
+B. Sales at randomly chosen dates throughout the year, in date order.
+C. Total sales for the decade in order of decade.
+
+
+
+9. Which best characterizes a social network?
+Ans:
+A graph with many low degree nodes and fewer high degree nodes
+
+
+False:
+A. A graph with only low degree nodes
+B. A graph with similar numbers of low degree and high degree nodes
+C. A graph with fewer low degree nodes and many high degree nodes
+
+
+
+10. Which best characterizes a tree map?
+Ans:
+The visualization of a tree of quantitative values as a hierarchy of rectangles where rectangle area corresponds to data value
+Exp:
+The rectangles corresponding to sibling nodes fit inside the rectangle corresponding to their parent node.
+
+
+False:
+A. The simplification of a tree to its essential backbone by removing nodes with low betweenness centrality.
+B. The visualization of a tree where the root node is placed at the center of a circle and the leaf nodes are positioned on the circle.
+C. The regions on a geographical choropleth map shaded green to indicate forests.
+
+
+11. Which of these is a more perceptually accurate mapping of a quantitative value than the other options?
+Ans:
+As the y coordinate in a scatter plot
+
+Exp:
+Position is better than length, angle, and color for mapping a quantitative value.
+
+
+False:
+A. As the angle in a pie chart
+B. As the color of a bar in a bar chart
+C. As the length of a bar in a Gantt chart
+
+
+
+12. Which of these is the best choice to visualize the sale of a shirt according to its shirt size?
+Ans:
+A bar chart
+
+
+
+
+
+
+
+
+
+
