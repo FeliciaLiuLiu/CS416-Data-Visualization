@@ -1,0 +1,210 @@
+1. Which of these best explains the name of the “D3” library?
+Ans:
+A. Data-Driven Documents – adding data to HTML elements
+Exp:  D3 adds data to HTML documents.    
+
+False:
+A. D3 is the opposite of 3D – because D3 focuses on 2-D visualization
+B. Desire, Decision, Determination – the formula for successful visualization
+C. The previous library was named D2
+
+
+2. Which of these is the most fundamentalcontribution of D3?
+Ans:
+A. D3 allows a web page to be accessed as a database.
+Exp: D3’s fundamental contribution is its select methods that query the elements of an HTML web page and join them with data. 
+
+
+False:
+A. D3 allows a web page to be interactive.
+Exp: Not quite – HTML web pages already have interaction, e.g., buttons.
+
+B. D3 allows a web page to display a data visualization chart.
+Exp: Not quite – D3 does do this, but another contribution is more fundamental to D3.
+
+C. D3 allows a web page to include vector graphics.
+
+3. The data method of D3 is designed to associate each data item with:
+Ans:
+A. A unique element in the web page
+Exp: D3 joins data items with the SVG elements used to display them. 
+
+
+False:
+A. A unique SVG canvas in the web page.
+Exp: Not quite – The SVG canvas is used to display all of the data items, 
+but a separate SVG canvas is usually not created to display each individual data item.
+
+B. A unique section of JavaScript code in the web page
+Exp: Not quite – JavaScript is used to modify the web page based on the data items, 
+but a unique section of code is not associated with each data item.
+
+C. A unique CSS style in the web page
+
+
+4. Which is returned by the following D3 code? d3.select(‘rect’).attr(‘height’,42)
+
+Ans:
+A. A reference to the selection
+Exp: D3’s attr() method returns a reference to the selection 
+so that subsequent attr() methods can be added to further modify the selection, even if the selection is a single element. 
+
+
+False:
+A. A reference to the height attribute    
+Exp: Not quite – D3’s attr() method does not return a reference to the attribute itself.
+
+B. A reference to the rectangle element
+Exp: Not quite – D3’s attr() method does not return a reference to a particular element in a selection.
+
+C. A reference to the number 42   
+
+
+
+5. Let sel = d3.selectAll(“rect”).data(1,2,3,4)
+Ans:
+A. sel.enter() and sel.exit()
+Exp: he Update section would contain all of the data items paired with all of the elements 
+since there there is an equal number of both of them. 
+
+False:
+A. sel.exit() and sel
+B. sel.update() and sel.enter()
+C. sel and sel.update()
+
+
+6. Let sel = d3.selectAll(“rect”).data(1,2,3,4)
+If the web page was initialized with no rectangles, then the general update pattern states that the code should focus on which part of the selection?
+Ans:
+A. sel.enter()
+Exp: The Enter section would mcontain (null,1), (null, 2), (null, 3), (null, 4), 
+and the general update pattern would add .append(“rect”) to associate a new rectangle element with each data item. 
+
+False:
+A. sel
+B. sel.exit()
+C. sel.update()
+
+
+
+7. If the (key,value) pairs of database A are (1,red), (2,green), (3,blue) 
+and database B are (2,circle), (3,rectangle), (4,triangle), then which is the natural join A><B?
+Ans:
+A. (green,circle), (blue,rectangle)
+Exp:
+Both value pairs have matching keys in each of their respective databases. 
+
+
+False:
+A. (green,circle),(blue,rectangle), (red,triangle)    
+B. (red,circle), (green,rectangle), (blue,triangle)
+C. null
+
+
+
+8. Given the SVG code <g transform=”translate(100,200)”><circle x=50, y=50, r=50></circle></g>
+Which point in the SVG canvas is in the circle?
+Ans:
+A. 150, 250
+Exp: The center of the circle is at the sum of its x,y attributes plus the transformation amount (100,200). 
+
+
+False: 
+A. 100, 200
+Exp: Not quite. The x,y attributes of the circle still offset its center. 
+
+B. 50, 50
+Exp: Not quite. The translate should move the center of the circle to a new location. 
+
+C. 250, 150
+
+
+
+9. Given the SVG code <circle x=100, y=100, r=10></circle><circle x=100, y=200, r=20></circle>
+Which is true?
+Ans:
+A. The radius 10 circle appears above the radius 20 circle.    
+Exp:
+In SVG, the origin is the upper left corner of the canvas, and positive y coordinates extend downward from the top of the canvas.
+
+
+False:
+A. The radius 20 circle appears above the radius 10 circle.
+
+
+
+10. Consider a web page that displays the fields of a database on the left, 
+and allows the user to drag these fields onto a canvas to add them to a visualization. 
+The web page starts with a blank canvas and gives no further instructions. 
+Which mode of visualization best describes this web page?
+
+Ans:
+A. Interactive Visualization
+Exp: 
+This visualization does not contain a narrative component, 
+so it would be used to investigate data to answer a user's question, but does not tell a specific story. 
+
+False:
+A. Narrative Visualization
+Exp: A narrative visualization uses the data visualization to tell a story, 
+but the web page relies only the user to create the visualization and so is not in control of the story.
+
+B. Interactive Storytelling
+C. Presentation Visualization
+
+
+11. If the (key,value) pairs of database A are (1,red), (2,green), (3,blue) 
+and database B are (2,circle), (3,rectangle), (4,triangle), then which value is in the antijoin A<B?
+Ans:
+A. triangle
+Exp: The antijoin would be specifically (null,triangle). 
+
+False:
+A. red
+Exp: Not quite – red is in one of the antijoins, but not this one.
+
+B. blue
+
+C. circle
+
+
+
+12. Let sel = d3.selectAll(“rect”).data(1,2,3,4)
+If the web page was initialized with three rectangles, then which of the following is empty?
+Ans:
+
+
+False:
+A. sel.update()
+Exp: Not quite – the Update section would contain (rect,1), (rect,2), (rect,3).
+
+
+
+
+
+13. Let sel = d3.selectAll(“rect”).data(1,2,3,4)
+If the web page was initialized with five rectangles, then which of the following is empty?
+Ans:
+A. sel.enter()
+Exp: 
+The Enter section would not contain any data items that did not have a corresponding element, 
+since there are fewer data items than elements. 
+
+False:
+A. sel
+B. sel.update()
+C. sel.exit()
+
+
+
+14. If the (key,value) pairs of database A are (1,red), (2,green), (3,blue) 
+and database B are (2,circle), (3,rectangle),(4,triangle), then which value is in the antijoin A>B?
+Ans:
+A. red
+Exp: The antijoin would be specifically (red,null). 
+
+
+False:
+A. triangle
+B. circle
+C. blue
