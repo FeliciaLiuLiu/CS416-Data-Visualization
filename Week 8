@@ -1,0 +1,198 @@
+1. Which of the following is more correct about the processes of dialog design and task analysis in user interface design?
+Ans:
+A. Task analysis is performed before dialog design.
+
+
+False:
+A. Task analysis is performed concurrently with dialog design.
+Exp:
+Not quite. Dialog design is applied to the actions produced by task analysis.
+
+B. Dialog design is performed independent of task analysis.
+Exp:
+Dialog design is applied to the actions produced by task analysis.
+
+C. Dialog design is performed before task analysis.
+
+
+
+
+2. Which of the following is the first step of a task analysis?
+Ans:
+A. Study the way a person performs the task.
+
+
+False:
+A. Determine whether the user or computer initiates interaction.
+Exp:
+Not quite. This is the first step of dialog design, not task analysis.
+
+B. Decide what user interface elements should be used.
+Exp:
+The decision of what interface elements to use is part of dialog design.
+
+C. Decompose the task into individual user steps.
+Exp:
+This is a task analysis step, but it's not the first one.
+
+
+
+
+3. Which of the following best demonstrates the principle of affordance in user interface design?
+Ans:
+A button appears raised to show it can be pressed.
+Exp: 
+An affordance is a hint in the appearance of an object to its function, 
+and for a button, the fact that it appears raised implies that it can be depressed.
+
+
+False:
+A. A button is large to make it easier to mouse over.
+B. A button is colored yellow to draw attention to it.
+C. A button calls a JavaScript function when pressed.
+
+
+
+
+4. Which of the following is the first step of dialog design?
+Ans:
+A. Determine whether the user or computer initiates interaction.
+
+False:
+A. Decide what user interface elements should be used.
+B. Decompose the task into individual user steps.
+C. Study the way a person performs the task.
+
+
+
+
+5. Events come from which element of the Model-View-Controller (MVC)?
+Ans:
+A. The controller
+Exp:
+The controller is responsible for user input.
+
+
+
+False:
+A. The DOM
+B. The view
+C. The model
+
+
+
+
+6. Using D3 version 5, suppose we set up a web page with the html:
+
+<body onload="init()"> ... </body"
+
+and we have some previously declared function display(data) that renders a chart of the data. 
+Which of the following best characterizes how a standard web browser executes the JavaScript code in the function init()?
+
+
+Ans:
+A. d3.csv() initiates the process of loading file.csv but returns before the data is loaded. 
+The function display(data) may be called before data contains the contents of file.csv.
+
+Exp:
+In order for this to work, we would have needed to insert "async" before "function init()" 
+and "await" before "d3.csv" to ensure the data was loaded before display() was executed.
+
+False:
+A. 
+The function d3.csv() initiates the load of file.csv and sets an event to be run upon completion of that load. 
+That way other events can be processed while waiting for file.csv to be loaded. 
+Once file.csv is loaded, then its contents are stored in the variable data and the next command, display(data), is executed.
+
+Exp:
+This does not happen from the code provided in the question. 
+In order for this to work, we would have needed to insert "async" before "function init()" and "await" before "d3.csv" 
+to ensure the data was loaded before display() was executed.
+
+B. The functions d3.csv() and display() are run simultaneously as parallel threads, 
+so the variable data passed to display() won't have been loaded with the contents of file.csv at the time display is called.
+
+Exp:
+JavaScript execution is single-threaded and does not execute multiple functions simultaneously as separate threads.
+
+C. 
+The function d3.csv returns a Promise which prevents display() from running until the promise has been fulfilled 
+and the data has been loaded from file.csv, returned and stored in the variable data.
+
+Exp:
+The function d3.csv() indeed returns a Promise, but a Promise as shown in this question's code 
+does not result in the behavior indicated by this answer.
+
+
+
+7. The code below uses setTimeout(function,time) which waits for time milliseconds and then adds a call to function to the event queue. 
+So the statement:
+setTimeout(timedout,0);
+instantly adds an event to the event queue to call timedout(). Given what you know about JavaScript execution, what will the following code output?
+
+Ans:
+A. 
+next statement
+
+timed out
+
+Exp:
+Even though the call to timedout() is instantly added to the event queue, the current code is run to completion, 
+so "next statement" is output and then once the current code has completed, 
+the next event in the queue will be processed and "timed out" will be output.
+
+
+False:
+A. Unknown, becuase it depends on processor speed.
+B. 
+timed out
+next statement
+
+C. Unknown, because of a race condition
+
+
+
+
+
+8. In a force-directed graph layout, which force keeps nodes from overlapping?
+Ans:
+A. The electrostatic force
+Exp: The electrostatic force repels nodes away from each other.
+
+False:
+A. The centering force
+B. The force of gravity
+C. The spring force
+
+
+
+
+9. In a force-directed graph layout, edges are represented by which physical simulation?
+Ans:
+A. Node-to-node springs
+Exp: The rest length of the spring is set to the ideal edge length.
+
+False:
+A. Node-to-node electrostatics
+Exp:
+This force repels nodes, even if they share an edge.
+
+B. Node-to-node gravitation
+Exp:
+Gravitation would try to merge two nodes into an overlapping configuration.
+
+
+10. In a collection of data points, which of the following best describe the Voronoi cell of a data point?
+Ans:
+A. The set of points closer to the data point than to any other data point
+
+
+False:
+A. The set of points on a line segment between the data point and a second nearby data point
+Exp: These points would lie on the edges of a Delaunay triangulation of the points.
+
+B. The set of points in the convex hull of the other data points nearby the data point
+Exp: A convex hull of data points is the smallest convex object containing the points, but that is independent of a Voronoi cell.
+
+C. The set of points equidistant to the data point and a second nearby data point
+Exp: Such points are on the boundary of a Voronoi cell, but the Voronoi cell includes its interior.
