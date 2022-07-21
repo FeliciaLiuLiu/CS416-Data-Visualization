@@ -1,0 +1,192 @@
+1. Which of these does Vega NOT treat as a database?
+Ans:
+A. The runtime that translates the specification into a web page
+Exp:
+The runtime is a JavaScript program that Vega uses to parse the specification and generate the web page of the visualization it describes.
+
+
+False:
+A. The data to be visualized
+B. The specification of the visualization
+C. The web page showing the visualization
+
+
+
+
+
+
+2. Which of these best describes reactive programming?
+Ans:
+A. Values change only in response to discrete events
+Exp:
+Reactive programming is programming in response to events, such that everything is implemented as a callback responding to an event, 
+though the events are not always user initiated, and can include clock ticks or “onload.”
+
+
+False:
+A. Programming where the computer initiates all interaction with the user
+Exp:
+This is the opposite of reactive programming.
+
+B. Programming that describes what happens instead of how it happens
+Exp:
+Not quite. This describes declarative programming, not reactive programming.
+
+C. Every programming instruction creates a reaction
+
+
+
+3. Which of the following streams would satisfy the following event grammar?
+[click, click] > mousemove
+
+Ans:
+A. A click, a mousemove, and then another click
+Exp:
+The “>” symbol indicates prefiltering of the mousemove events, that they have to happen between the bracketed events preceding the “>” symbol.
+
+
+False:
+A. A mousemove followed by two clicks
+B. A doubleclick while the mouse is in motion
+C. Two clicks, then a mousemove
+
+
+
+
+
+4. Which event grammar describes a click on a rectangle whose associated data value X = 1?
+Ans:
+A. rect:click[X == 1]
+Exp:
+The “rect:” predecessor requires the click event to occur on a rectangle, and the bracketed condition successor requires that X equals 1.
+
+
+False:
+A. [rect]click:X == 1
+Exp:
+Not quite. The condition should appear in brackets, and the element should not.
+
+B. rect[X == 1]: click
+Exp:
+Not quite. The bracketed condition should not appear before the event.
+
+C. [X == 1] > rect:click
+Exp:
+Not quite. The “>” symbol is a prefilter, but prefilters are not used for conditions.
+
+
+5. Which elements of narrative visualization do Vega signals support?
+Ans:
+A. Parameters and triggers
+Exp:
+Signals are variables and so are the parameters of a narrative visualization. 
+These signal variables change their value due to events, which matches the definition of a trigger for narrative visualization.
+
+
+False:
+A. Annotations and annotation templates
+Exp:
+Not quite. Signals are variables that change due to events.
+
+B. Scenes and scene transitions
+Exp:
+Not quite. Signals are variables that change due to events.
+
+C. Slides and slide templates
+Exp:
+Not quite. Signals are variables that change due to events.
+
+
+
+6. Which is NOT a domain specific language?
+Ans:
+A. JavaScript
+Exp:
+JavaScript is a general purpose language, though usually deployed in a web browser (or web server).
+
+False:
+A. Ellipsis
+B. Vega-Lite
+C. Vega
+
+
+
+7. Which is the most declarative way to compute the sum of an array?
+Ans:
+A. Using a sum method for the array
+Exp:
+This is declarative because we are telling the computer what we want (the sum) and not how to compute it.
+
+False:
+A. Using a foreach method of an array, passed with a function that adds the numbers
+Exp:
+Not quite. This is still a fairly imperative way to compute the sum, 
+since we are telling the computer how to compute the sum, 
+though we no longer need to tell the computer how to access the elements of the array.
+
+B. Writing a while loop to add the numbers together
+Exp:
+Not quite. This is an imperative way to compute the sum since we are telling the computer how to compute the sum.
+
+C. Writing a for loop to add the numbers together
+
+
+8. What is a predicate function?
+Ans:
+A. A Boolean (true/false) function
+Exp:
+This is declarative because we are telling the computer what we want (the sum) and not how to compute it.
+
+
+False:
+A. A function that halts execution if a variable is zero
+Exp:
+This is an assert() function, which like a predicate function performs a test, but a predicate function is not required to halt execution.
+
+B. A function used to build a more complex function
+Exp:
+Not quite. This might be a “helper” function, but while a helper function “predicates” a more complex function, the helper is not a predicate function.
+
+C. A function that begins with a verb
+Exp:
+Not quite. While a predicate in English grammar begins with a verb, this is not true of functions in programming languages.
+
+
+9. What are “backing points” used for in Vega-Lite?
+Ans:
+A. As a compact description of user selected data items
+Exp:
+The backing points are used to describe user selected data items. They are compact, 
+so that if a range of data items are selected, the backing points can just be the first and last data items of the selected range.
+
+
+False:
+A.  As redundant copies of selected data items to support an undo command
+Exp:
+Not quite. The backing points are not “backup” copies of points.
+
+B. As the screen positions of the selected marks in a chart
+Exp:
+Not quite. The backing points need not refer to screen positions.
+
+C. As a complete listing of every user selected data item
+Exp:
+Not quite. The backing points need not include every selected data item.
+
+
+
+10. Narrative data visualization is:
+Ans:
+A. 
+All of the above
+
+False:
+A. Scenes + Annotations + Parameters + Triggers
+Exp:
+Correct – by definition. But isn't it more than that?
+
+B. Complicated
+
+C. Fun
+
+
