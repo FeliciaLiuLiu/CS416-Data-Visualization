@@ -1,0 +1,189 @@
+1. What is the primary goal of the visual structure of a scene?
+Ans:
+A. To help the viewer navigate the scene.
+Exp:
+The visual structure is designed to lead the viewer through the elements of the scene in a particular order.
+
+False:
+A. To encourage the viewer to interact with the data.
+Exp:
+Not quite – this is an important goal, but not one of the visual structure.
+
+B. To make the scene attractive to the viewer.
+Exp:
+while making an attractive narrative visualization helps engage the viewer, the goal of the visual structure is not to make the scene pleasing.
+
+C. To make the scene informative
+
+
+
+
+2. Which is the goal of a transition between scenes?
+Ans:
+A. To keep the viewer from becoming disoriented.
+Exp:
+Transitions help users retain a sense of context as data or charts change from scene to scene in a narrative visualization.
+
+False:
+A. To build drama.
+B. To show as many scenes as possible.
+C. To hold the viewer's interest.
+
+
+
+
+3. Which of these scenarios best characterizes a martini glass structure?
+Ans:
+A. A slide show followed by free-form exploration.
+Exp:
+The slide show is author-led content, corresponding to the stem, that leads to a more free-form exploration, which corresponds to the widening bowl.
+
+
+False:
+A. A single scene with the ability to initiate a slide show from select points in the scene.
+Exp:
+Not quite – how would this map to the narrow stem and the widening bowl of a martini glass?
+
+B. A single scene with displayed annotations that highlight key data points.
+Exp:
+Not quite – how would this map to the narrow stem and the widening bowl of a martini glass?
+
+C. A slide show with the ability to drill down into the details in each slide.
+Exp:
+Not quite – how would this map to the narrow stem and the widening bowl of a martini glass?
+
+
+
+4. Which of these scenarios best characterizes an interactive slideshow structure?
+Ans:
+A. A slide show with the ability to drill down into the details in each slide.
+Exp:
+An interactive slide show consists of a main author-led pathway, 
+but allows the viewer to explore some side paths that can drill down into details in a slide, 
+though these side paths are often also author-led.
+
+
+
+False:
+A. A single scene with the ability to initiate a slide show from select points in the scene.
+Exp:
+Not quite – while the slide shows begin with interactions, they themselves might not be interactive.
+
+B. A single scene with displayed annotations that highlight key data points.
+Exp:
+Not quite – how does this map to the slides of a slide show?
+
+C. A slide show followed by free-form exploration.
+
+
+
+
+5. Which of these scenarios best characterizes a drill-down story structure?
+Ans:
+A. A single scene with the ability to initiate a slide show from select points in the scene.
+Exp:
+These slide shows provide the ability to drill down into the details of the narrative visualization.
+
+
+False:
+A. A slide show followed by free-form exploration.
+B. A slide show with the ability to drill down into the details in each slide.
+C. A single scene with displayed annotations that highlight key data points.
+
+
+
+
+6. Which is NOT a recommendation on using scenes in a narrative visualization?
+Ans:
+A. Each scene should contain a different kind of chart.
+Exp:
+A scene in a narrative visualization can consist of one or more charts, 
+and these charts can be the same kind of chart, highlighting  different aspects of the data.
+
+
+False:
+A. Scenes should follow a template to keep the viewer oriented through transitions.
+Exp:
+Not quite – the consistency of scenes from templates help the viewer maintain context from one scene to the next.
+
+B. Scenes should follow a template to promote a consistent visual structure.
+Exp:
+Not quite – visual consistency is important in narrative visualization.
+
+
+
+
+7. Which is NOT a recommendation on using annotations for narrative visualization?
+Ans:
+A. Annotations should be cleared when moving to a new scene.
+Exp:
+Annotations can be built up in a sequence toward a conclusion.
+
+
+False:
+A. Annotations should follow a template to promote a consistent visual structure.
+Exp:
+Using the same annotation forms allows the viewer to focus on the content and not the presentation of the annotation.
+
+B. Annotations should be used to highlight interesting data points in a scene.
+Exp:
+Annotations include highlights to draw the viewer's attention to interesting data.
+
+C. Annotations should be used to convey an author’s message.
+
+
+
+
+
+8. Which of these narrative layouts is the most linear, allowing the least viewer deviation from an author led path?
+Ans:
+A. Video
+Exp:
+Video provides very little opportunity for reader-driven re-ordering of the content, just play, pause, and rewind.
+
+False:
+A. Partitioned poster
+Exp:
+A partitioned poster suggests a desired organization of the frames, but allows the viewer to look at any of the frames.
+
+B. Comic strip
+Exp:
+Not quite. A comic strip layout suggests a serial path through the frames, but the viewer is free to look at any of the frames.
+
+C. Magazine
+Exp:
+Not quite. A magazine article includes figures, and the reader can freely access any part of the article and switch between the text and the figures.
+
+
+
+
+9. Which narrative layout relies on arrows for viewer navigation?
+Ans:
+A. Flow chart
+Exp:
+A flow chart consists of elements (e.g., stages of a process), usually connected by arrows to establish a well-defined ordering of the elements.
+
+
+False:
+A. Partitioned poster
+Exp:
+A partitioned poster organizes its frames but does not usually rely on arrows to convey this organization.
+
+B. Comic strip
+Exp:
+Not quite. While a comic strip can include arrows, it generally does not rely on arrows to indicate the ordering of its frames.
+
+C. Magazine
+
+
+10. Which narrative layout is the most reader driven?
+Ans:
+A. Partitioned poster
+Exp:
+A partitioned poster creates a structure that allows the viewer to work through its frames in an order determined by the viewer.
+
+
+False:
+A. Flow chart
+B. Comic strip
+C. Magazine
